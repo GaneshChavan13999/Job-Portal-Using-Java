@@ -1,0 +1,80 @@
+.a1{
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    clear: both;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin: 0px 100px;
+    margin-top: 10%;
+    padding: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.21);
+    background-color: #fff;
+    width: 33.3%;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}   
+/*.a1{
+    width: 33.3%;
+
+}*/
+.a3{
+        border-radius: 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        font-weight: 600;   
+    }
+    .note-small {
+        font-family: poppins-regular-webfont;
+        font-size: 1.5em;
+        line-height: 1.55;
+        letter-spacing: normal;
+        color: #9b9b9b;
+        margin: 5px 0;
+        margin-top: 5px;
+        margin-right :0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+    .welcomeText h3 {
+        color: #152935;
+        line-height: 1.55;
+    }
+    .bg-primary {
+        background-color: #007bff !important;
+    }
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.31rem;
+        padding-bottom: 0.31rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+        box-sizing: border-box;
+     
+    }
+    .img {
+        vertical-align: middle;
+        border-style: none;
+    }
+    
+    
+    

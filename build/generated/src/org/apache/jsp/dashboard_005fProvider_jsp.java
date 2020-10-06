@@ -1,0 +1,284 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class dashboard_005fProvider_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("\n");
+      out.write("<head>\n");
+      out.write("    <meta charset=\"utf-8\">\n");
+      out.write("    <!-- <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> -->\n");
+      out.write("    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
+      out.write("\n");
+      out.write("    <title>Full Motion</title>\n");
+      out.write("\t\t\n");
+      out.write("<!--\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"assets/css/main.css\" />-->\n");
+      out.write("\n");
+      out.write("    <!-- Bootstrap CSS CDN -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">\n");
+      out.write("    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n");
+      out.write("    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js\"></script>\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css\" integrity=\"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4\" crossorigin=\"anonymous\">\n");
+      out.write("    <!-- Our Custom CSS -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"../assets/css/style5.css\">\n");
+      out.write("    <link rel=\"stylesheet\" href=\"../assets/css/main.css\" />\n");
+      out.write("\t\t<link href=\"https://fonts.googleapis.com/css?family=Flamenco\" rel=\"stylesheet\">\n");
+      out.write("                <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css\">\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"./assets/css/font-awesome.min.css\" type=\"text/css\">\n");
+      out.write("                <style>\n");
+      out.write("                    .container{\n");
+      out.write("                        margin-left: 10px;\n");
+      out.write("                    } \n");
+      out.write("                </style>\n");
+      out.write("</head>\n");
+      out.write("\n");
+      out.write("<body id=\"top\">\n");
+      out.write("         ");
+if(session.getAttribute("username")==null){
+      out.write("\n");
+      out.write("    <div class=\"wrapper\">\n");
+      out.write("        <!-- Sidebar Holder -->\n");
+      out.write("        <nav id=\"sidebar\" style=\"text-align: center;\">\n");
+      out.write("            <div class=\"sidebar-header\">\n");
+      out.write("                      <div><img src=\"../images/pic01.jpg\" alt=\"user-img\" class=\"img-circle\" style=\"width: 200px;height: 200px;\"></div>\n");
+      out.write("\t\t\t\t\t  <h3 style=\"font-size: 35px; \">Welcome..<br> ABC</h3>\n");
+      out.write("\n");
+      out.write("                    </div>\n");
+      out.write("                <nav class=\"sidebar-nav\">\n");
+      out.write("                    <div id=\"sidebarnav\">\n");
+      out.write("                        \n");
+      out.write("                        <a class=\"waves-effect waves-dark\" href=\"#\" aria-expanded=\"false\"><span class=\"hide-menu\">My Profile</span></a><br>\n");
+      out.write("    \n");
+      out.write("                        <a href=\"event_categories.php\" aria-expanded=\"false\">My Applications </a><br>\n");
+      out.write("                        <a class=\"waves-effect waves-dark\" href=\"advertisement.php\" aria-expanded=\"false\"><span class=\"hide-menu\">   Inbox           </span></a><br>\n");
+      out.write("                        <a class=\"waves-effect waves-dark\" href=\"app2-contact.php\" aria-expanded=\"false\"><span class=\"hide-menu\">     Account Setting</span></a><br>\n");
+      out.write("\t\t\t\t\t\t<a class=\"waves-effect waves-dark\" href=\"create_visitors.php\" aria-expanded=\"false\"><span class=\"hide-menu\"> Logout          </span></a><br>\n");
+      out.write("                     \n");
+      out.write("                    </div>\n");
+      out.write("                </nav>\n");
+      out.write("            \n");
+      out.write("        </nav>\n");
+      out.write("\n");
+      out.write("        <!-- Page Content Holder -->\n");
+      out.write("        <div id=\"content\">\n");
+      out.write("\n");
+      out.write("<!--            <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n");
+      out.write("                <div class=\"container-fluid\">\n");
+      out.write("\n");
+      out.write("                    \n");
+      out.write("                    <button class=\"btn btn-dark d-inline-block d-lg-none ml-auto\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n");
+      out.write("                        <i class=\"fas fa-align-justify\"></i>\n");
+      out.write("                    </button>\n");
+      out.write("\n");
+      out.write("                  \n");
+      out.write("                </div>\n");
+      out.write("            </nav>-->\n");
+      out.write("            <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n");
+      out.write("\t\t\t\t\n");
+      out.write("                                    <button type=\"button\" id=\"sidebarCollapse\" class=\"btn btn-dark navbar-btn \">\n");
+      out.write("                                        <span></span>\n");
+      out.write("                                        <span></span>\n");
+      out.write("                                        <span></span>\n");
+      out.write("                                    </button><div class=\"container\">\n");
+      out.write("\t\t\t\t  <a class=\"navbar-brand\" href=\"#\"><i class=\"fa fa-handshake-o\" aria-hidden=\"true\"></i> GET A JOB</a>\n");
+      out.write("\t\t\t\t  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n");
+      out.write("\t\t\t\t\t<span class=\"navbar-toggler-icon\"></span>\n");
+      out.write("\t\t\t\t  </button>\n");
+      out.write("\t\t\t\t\n");
+      out.write("\t\t\t\t  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n");
+      out.write("\t\t\t\t\t<ul class=\"navbar-nav mr-auto\">\n");
+      out.write("\t\t\t\t\t  <li class=\"nav-item active\">\n");
+      out.write("\t\t\t\t\t\t<a class=\"nav-link\" href=\"index.jsp\">Home <span class=\"sr-only\">(current)</span></a>\n");
+      out.write("\t\t\t\t\t  </li>  \n");
+      out.write("\t\t\t\t\t</ul>  \n");
+      out.write("\t\t\t\t  </div>\n");
+      out.write("\t\t\t\t</div>\n");
+      out.write("\t\t\t</nav>\n");
+      out.write("<p class=\"seek_title\"> Here re the Posted Jobs<p>\n");
+      out.write("\n");
+      out.write("\t\t\t<!-- Main -->\n");
+      out.write("\t\t\t\t<div id=\"main\">\n");
+      out.write("\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t<!-- Boxes -->\n");
+      out.write("\t\t\t\t\t\t<div class=\"thumbnails\">\n");
+      out.write("\n");
+      out.write("                                            \t\t<div class=\"box\">\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t\t\t\t<h3 class=\"CompanyName\">RJ Impex International</h3>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tMumbai, Maharashtra</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>HR Marketing</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Experience: 0-2 Years</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Job Type: Full-time</p> \n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Salary: â¹18,000.00 to â¹40,000.00 /month</p> \n");
+      out.write("\t\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t\t<div class=\"box\">\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t\t\t\t<h3 class=\"CompanyName\">RJ Impex International</h3>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tMumbai, Maharashtra</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>HR Marketing</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Experience: 0-2 Years</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Job Type: Full-time</p> \n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Salary: â¹18,000.00 to â¹40,000.00 /month</p> \n");
+      out.write("\t\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t\t<div class=\"box\">\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t\t\t\t<h3 class=\"CompanyName\">RJ Impex International</h3>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tMumbai, Maharashtra</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>HR Marketing</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Experience: 0-2 Years</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Job Type: Full-time</p> \n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Salary: â¹18,000.00 to â¹40,000.00 /month</p> \n");
+      out.write("\t\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t\t<div class=\"box\">\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t\t\t\t<h3 class=\"CompanyName\">RJ Impex International</h3>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tMumbai, Maharashtra</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>HR Marketing</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Experience: 0-2 Years</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Job Type: Full-time</p> \n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Salary: â¹18,000.00 to â¹40,000.00 /month</p> \n");
+      out.write("\t\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t\t<div class=\"box\">\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t\t\t\t<h3 class=\"CompanyName\">RJ Impex International</h3>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tMumbai, Maharashtra</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>HR Marketing</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Experience: 0-2 Years</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Job Type: Full-time</p> \n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Salary: â¹18,000.00 to â¹40,000.00 /month</p> \n");
+      out.write("\t\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t\t<div class=\"box\">\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t\t\t\t<h3 class=\"CompanyName\">RJ Impex International</h3>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tMumbai, Maharashtra</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>HR Marketing</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Experience: 0-2 Years</p>\n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Job Type: Full-time</p> \n");
+      out.write("\t\t\t\t\t\t\t\t\t<p>Salary: â¹18,000.00 to â¹40,000.00 /month</p> \n");
+      out.write("\t\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t\t<!-- Footer -->\n");
+      out.write("\t\t\t\t<footer id=\"footer\">\n");
+      out.write("\t\t\t\t\t<div class=\"inner\">\n");
+      out.write("\t\t\t\t\t\t<h2>Etiam veroeros lorem</h2>\n");
+      out.write("\t\t\t\t\t\t<p class=\"footerpara\">Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>\n");
+      out.write("\n");
+      out.write("\t\t\t\t\t\t<ul class=\"icons\">\n");
+      out.write("\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon fa-twitter\"><span class=\"label\">Twitter</span></a></li>\n");
+      out.write("\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon fa-facebook\"><span class=\"label\">Facebook</span></a></li>\n");
+      out.write("\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon fa-instagram\"><span class=\"label\">Instagram</span></a></li>\n");
+      out.write("\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon fa-envelope\"><span class=\"label\">Email</span></a></li>\n");
+      out.write("\t\t\t\t\t\t</ul>\n");
+      out.write("\t\t\t\t\t\t<p class=\"copyright\">&copy; Untitled. Design: Job Portal. Images: <a href=\"https://unsplash.com/\">Unsplash</a>. Videos: <a href=\"http://coverr.co/\">Coverr</a>.</p>\n");
+      out.write("\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t</footer>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\t\t<!-- Scripts -->\n");
+      out.write("\t\t\t<script src=\"./assets/js/jquery.min.js\"></script>\n");
+      out.write("\t\t\t<script src=\"assets/js/jquery.scrolly.min.js\"></script>\n");
+      out.write("\t\t\t<script src=\"assets/js/jquery.poptrox.min.js\"></script>\n");
+      out.write("\t\t\t<script src=\"assets/js/skel.min.js\"></script>\n");
+      out.write("\t\t\t<script src=\"assets/js/util.js\"></script>\n");
+      out.write("\t\t\t<script src=\"assets/js/main.js\"></script></div>\n");
+      out.write("\n");
+      out.write("<!--     jQuery CDN - Slim version (=without AJAX) \n");
+      out.write("    ss-->\n");
+      out.write("<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n");
+      out.write("     <!--Popper.JS--> \n");
+      out.write("    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n");
+      out.write("     <!--Bootstrap JS--> \n");
+      out.write("    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n");
+      out.write("\n");
+      out.write("    <script type=\"text/javascript\">\n");
+      out.write("        $(document).ready(function () {\n");
+      out.write("            $('#sidebarCollapse').on('click', function () {\n");
+      out.write("                $('#sidebar').toggleClass('active');\n");
+      out.write("                $(this).toggleClass('active');\n");
+      out.write("            });\n");
+      out.write("        });\n");
+      out.write("    </script>\n");
+      out.write("</body>\n");
+      out.write("\n");
+      out.write("</html>");
+}} catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
